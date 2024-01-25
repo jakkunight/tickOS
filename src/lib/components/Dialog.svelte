@@ -22,7 +22,7 @@
   <dialog
     open={false}
     bind:this={modal}
-    class="bg-black text-white border-white border-2 rounded-lg m-16"
+    class="bg-black text-white border-white border-2 rounded-lg m-[10%] backdrop:backdrop-blur-lg"
     {...$$props} 
   >
     <div
