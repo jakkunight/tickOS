@@ -3,4 +3,4 @@
   export let alt = "";
 </script>
 
-<img src={src} alt={alt} class="w-full h-auto border-white border-2 border-double p-2" />
+<img src={src} alt={alt} class="w-full h-auto p-2" {...$$props} />
